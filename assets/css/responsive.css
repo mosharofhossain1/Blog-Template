@@ -14,3 +14,15 @@
         text-align: center;
     }
 }
+@media screen and (min-width : 768px) {
+    .blogesContainers{
+        display: flex;
+        gap: 20px;
+    }
+    .blogeRightDetails{
+        flex: 65%;
+    }
+    .blogeLeftDetails{
+        flex: 35%;
+    }
+}
