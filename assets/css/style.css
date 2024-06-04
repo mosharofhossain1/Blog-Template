@@ -14,5 +14,25 @@ a, span,li{
     width: 100%;
     margin: 0 auto;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* Default css style end */
+
+/* Header section css start */
+header{
+    background-color: #f1f1f1;
+    padding: 50px 0px;
+}
+.headerDesc{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.headerDesc .unknownDesign{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+/* Header section css end */
