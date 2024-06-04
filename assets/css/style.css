@@ -10,7 +10,7 @@ a, span,li{
     box-sizing: border-box;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1270px;
     width: 100%;
     margin: 0 auto;
 }
@@ -50,7 +50,7 @@ header{
 }
 
 .blogeImg img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .blogeRightDetails .blogeTitle{
@@ -180,3 +180,37 @@ header{
 }
 
 /* Bloge Section end */
+
+/* Footer start */
+footer{
+    background-color: #616161;
+   
+}
+footer .btnDiv{
+    margin: 0px 40px;
+}
+footer button{
+    margin: 50px 0px;
+    padding: 10px 20px;
+}
+footer .nextBtn, .preBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border:none;
+    cursor: pointer;
+}
+footer .preBtn{
+    background-color: #444;
+}
+
+.btnDiv .preBtn:hover{
+    pointer-events: none;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    opacity: .7;
+}
