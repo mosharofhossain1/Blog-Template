@@ -1,0 +1,18 @@
+/* Default css style start */
+*,
+::after,
+::before,
+a, span,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Default css style end */
